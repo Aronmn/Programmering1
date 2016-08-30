@@ -10,7 +10,7 @@ namespace Variabler
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Mata in ett heltal");
+            Console.WriteLine("Mata in ett heltal");//
             string inmatat;
             inmatat = Console.ReadLine();
             int mittHeltal = int.Parse(inmatat);
