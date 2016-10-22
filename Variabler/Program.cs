@@ -43,6 +43,24 @@ namespace Variabler
             Console.WriteLine("Det blir " + (degcel + 1.8 * +32) + (" farenheit"));
 
             //Övning 4
+
+            Console.Write("Mata in grader i celsius:");
+            string grader1;
+            grader1 = Console.ReadLine();
+            int degcel1 = int.Parse(grader);
+            Console.Write("Det blir " + (degcel1 + 1.8 * +32) + (" farenheit"));
+            Console.WriteLine();
+
+            //Övning 5
+
+            Console.WriteLine("Cirkelns radie: ");
+            string tal = Console.ReadLine();
+            int radie = int.Parse(tal);
+            double pi = Math.PI;
+            Console.WriteLine("Area: " + radie*radie*pi );
+            Console.WriteLine("Omkrets: " + radie * pi * 2);
+            
+
         }
     }
 }
